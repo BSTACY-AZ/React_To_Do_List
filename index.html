@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>To Dos beep boop beep...</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <!-- don't use this in production: -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+   
+  </head>
+  <body>
+
+    <h1>>>To Do List</h1>
+
+    <!-- we will put our react component inside this div -->
+    <div id="root"></div>
+
+    <footer>
+        <p>Author: Hege Refsnes<br>
+        <a href="mailto:hege@example.com">hege@example.com</a></p>
+      </footer>
+    
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
+
+    <!-- load our react component. -->
+    <script src="form.js" defer type="text/babel"></script>
+    <script src="todo.js" defer type="text/babel"></script>
+    <script src="index.js" defer type="text/babel"></script>
+
+
+  </body>
+  
+</html>
